@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping><!-- 根节点 -->
+  <class name="hit.User" table="t_user">
+     <property name="username"></property>
+     <property name="password"></property>
+  </class>
+</hibernate-mapping>
